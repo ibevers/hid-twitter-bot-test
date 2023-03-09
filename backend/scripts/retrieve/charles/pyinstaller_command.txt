@@ -1,0 +1,5 @@
+pyinstaller --onefile --add-data="Bot_Model_1.sav;." --hidden-import=sklearn --hidden-import=sklearn.ensemble._for
+est --hidden-import=sklearn.neighbors._typedefs --hidden-import=sklearn.utils._weight_vector --hidden-im
+port=sklearn.neighbors._quad_tree app.py
+
+- Remember to copy/paste the ML model into the dist file

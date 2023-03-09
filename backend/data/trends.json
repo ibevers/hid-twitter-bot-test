@@ -1,0 +1,364 @@
+[
+    {
+        "as_of": "2022-07-18T18:40:40Z",
+        "created_at": "2022-07-15T14:35:24Z",
+        "locations": [
+            {
+                "name": "Worldwide",
+                "woeid": 1
+            }
+        ],
+        "trends": [
+            {
+                "name": "#Te\u015fekk\u00fcrlerErdo\u011fan",
+                "promoted_content": null,
+                "query": "%23Te%C5%9Fekk%C3%BCrlerErdo%C4%9Fan",
+                "tweet_volume": 80897,
+                "url": "http://twitter.com/search?q=%23Te%C5%9Fekk%C3%BCrlerErdo%C4%9Fan"
+            },
+            {
+                "name": "#kykborcu",
+                "promoted_content": null,
+                "query": "%23kykborcu",
+                "tweet_volume": 19996,
+                "url": "http://twitter.com/search?q=%23kykborcu"
+            },
+            {
+                "name": "Te\u015fekk\u00fcrler K\u0131l\u0131\u00e7daro\u011flu",
+                "promoted_content": null,
+                "query": "%22Te%C5%9Fekk%C3%BCrler+K%C4%B1l%C4%B1%C3%A7daro%C4%9Flu%22",
+                "tweet_volume": 71315,
+                "url": "http://twitter.com/search?q=%22Te%C5%9Fekk%C3%BCrler+K%C4%B1l%C4%B1%C3%A7daro%C4%9Flu%22"
+            },
+            {
+                "name": "Scaramouche",
+                "promoted_content": null,
+                "query": "Scaramouche",
+                "tweet_volume": 46584,
+                "url": "http://twitter.com/search?q=Scaramouche"
+            },
+            {
+                "name": "Tristan Thompson",
+                "promoted_content": null,
+                "query": "%22Tristan+Thompson%22",
+                "tweet_volume": 18298,
+                "url": "http://twitter.com/search?q=%22Tristan+Thompson%22"
+            },
+            {
+                "name": "#Tozluyaka",
+                "promoted_content": null,
+                "query": "%23Tozluyaka",
+                "tweet_volume": null,
+                "url": "http://twitter.com/search?q=%23Tozluyaka"
+            },
+            {
+                "name": "#BhupinderSingh",
+                "promoted_content": null,
+                "query": "%23BhupinderSingh",
+                "tweet_volume": null,
+                "url": "http://twitter.com/search?q=%23BhupinderSingh"
+            },
+            {
+                "name": "K\u0131zlarFitnessc\u0131 ErkekSever",
+                "promoted_content": null,
+                "query": "%22K%C4%B1zlarFitnessc%C4%B1+ErkekSever%22",
+                "tweet_volume": null,
+                "url": "http://twitter.com/search?q=%22K%C4%B1zlarFitnessc%C4%B1+ErkekSever%22"
+            },
+            {
+                "name": "#heatwave",
+                "promoted_content": null,
+                "query": "%23heatwave",
+                "tweet_volume": 64750,
+                "url": "http://twitter.com/search?q=%23heatwave"
+            },
+            {
+                "name": "Khloe",
+                "promoted_content": null,
+                "query": "Khloe",
+                "tweet_volume": 12201,
+                "url": "http://twitter.com/search?q=Khloe"
+            },
+            {
+                "name": "Madden",
+                "promoted_content": null,
+                "query": "Madden",
+                "tweet_volume": null,
+                "url": "http://twitter.com/search?q=Madden"
+            },
+            {
+                "name": "hoshi",
+                "promoted_content": null,
+                "query": "hoshi",
+                "tweet_volume": 112722,
+                "url": "http://twitter.com/search?q=hoshi"
+            },
+            {
+                "name": "PT e PCC",
+                "promoted_content": null,
+                "query": "%22PT+e+PCC%22",
+                "tweet_volume": 69041,
+                "url": "http://twitter.com/search?q=%22PT+e+PCC%22"
+            },
+            {
+                "name": "Deebo",
+                "promoted_content": null,
+                "query": "Deebo",
+                "tweet_volume": null,
+                "url": "http://twitter.com/search?q=Deebo"
+            },
+            {
+                "name": "Stray",
+                "promoted_content": null,
+                "query": "Stray",
+                "tweet_volume": 104908,
+                "url": "http://twitter.com/search?q=Stray"
+            },
+            {
+                "name": "Marcos Val\u00e9rio",
+                "promoted_content": null,
+                "query": "%22Marcos+Val%C3%A9rio%22",
+                "tweet_volume": 42059,
+                "url": "http://twitter.com/search?q=%22Marcos+Val%C3%A9rio%22"
+            },
+            {
+                "name": "Fauci",
+                "promoted_content": null,
+                "query": "Fauci",
+                "tweet_volume": 66820,
+                "url": "http://twitter.com/search?q=Fauci"
+            },
+            {
+                "name": "Amari Cooper",
+                "promoted_content": null,
+                "query": "%22Amari+Cooper%22",
+                "tweet_volume": null,
+                "url": "http://twitter.com/search?q=%22Amari+Cooper%22"
+            },
+            {
+                "name": "LEFT AND RIGHT 100M",
+                "promoted_content": null,
+                "query": "%22LEFT+AND+RIGHT+100M%22",
+                "tweet_volume": 66036,
+                "url": "http://twitter.com/search?q=%22LEFT+AND+RIGHT+100M%22"
+            },
+            {
+                "name": "Kershaw",
+                "promoted_content": null,
+                "query": "Kershaw",
+                "tweet_volume": null,
+                "url": "http://twitter.com/search?q=Kershaw"
+            },
+            {
+                "name": "Sesame Place",
+                "promoted_content": null,
+                "query": "%22Sesame+Place%22",
+                "tweet_volume": 41431,
+                "url": "http://twitter.com/search?q=%22Sesame+Place%22"
+            },
+            {
+                "name": "Craig McCracken",
+                "promoted_content": null,
+                "query": "%22Craig+McCracken%22",
+                "tweet_volume": null,
+                "url": "http://twitter.com/search?q=%22Craig+McCracken%22"
+            },
+            {
+                "name": "Prince Harry",
+                "promoted_content": null,
+                "query": "%22Prince+Harry%22",
+                "tweet_volume": 30317,
+                "url": "http://twitter.com/search?q=%22Prince+Harry%22"
+            },
+            {
+                "name": "Sam Kerr",
+                "promoted_content": null,
+                "query": "%22Sam+Kerr%22",
+                "tweet_volume": null,
+                "url": "http://twitter.com/search?q=%22Sam+Kerr%22"
+            },
+            {
+                "name": "Rosita",
+                "promoted_content": null,
+                "query": "Rosita",
+                "tweet_volume": 11404,
+                "url": "http://twitter.com/search?q=Rosita"
+            },
+            {
+                "name": "\u7b2c179\u56de",
+                "promoted_content": null,
+                "query": "%E7%AC%AC179%E5%9B%9E",
+                "tweet_volume": null,
+                "url": "http://twitter.com/search?q=%E7%AC%AC179%E5%9B%9E"
+            },
+            {
+                "name": "Seized",
+                "promoted_content": null,
+                "query": "Seized",
+                "tweet_volume": 15117,
+                "url": "http://twitter.com/search?q=Seized"
+            },
+            {
+                "name": "AMIA",
+                "promoted_content": null,
+                "query": "AMIA",
+                "tweet_volume": 25250,
+                "url": "http://twitter.com/search?q=AMIA"
+            },
+            {
+                "name": "Ja'Marr Chase",
+                "promoted_content": null,
+                "query": "%22Ja%27Marr+Chase%22",
+                "tweet_volume": null,
+                "url": "http://twitter.com/search?q=%22Ja%27Marr+Chase%22"
+            },
+            {
+                "name": "Nelson Mandela",
+                "promoted_content": null,
+                "query": "%22Nelson+Mandela%22",
+                "tweet_volume": 65606,
+                "url": "http://twitter.com/search?q=%22Nelson+Mandela%22"
+            },
+            {
+                "name": "Sesame Street",
+                "promoted_content": null,
+                "query": "%22Sesame+Street%22",
+                "tweet_volume": null,
+                "url": "http://twitter.com/search?q=%22Sesame+Street%22"
+            },
+            {
+                "name": "Alexandre de Moraes",
+                "promoted_content": null,
+                "query": "%22Alexandre+de+Moraes%22",
+                "tweet_volume": 48246,
+                "url": "http://twitter.com/search?q=%22Alexandre+de+Moraes%22"
+            },
+            {
+                "name": "\u30ac\u30c1\u89e3\u9664",
+                "promoted_content": null,
+                "query": "%E3%82%AC%E3%83%81%E8%A7%A3%E9%99%A4",
+                "tweet_volume": null,
+                "url": "http://twitter.com/search?q=%E3%82%AC%E3%83%81%E8%A7%A3%E9%99%A4"
+            },
+            {
+                "name": "Unga",
+                "promoted_content": null,
+                "query": "Unga",
+                "tweet_volume": 30875,
+                "url": "http://twitter.com/search?q=Unga"
+            },
+            {
+                "name": "Claes Oldenburg",
+                "promoted_content": null,
+                "query": "%22Claes+Oldenburg%22",
+                "tweet_volume": null,
+                "url": "http://twitter.com/search?q=%22Claes+Oldenburg%22"
+            },
+            {
+                "name": "Xand\u00e3o",
+                "promoted_content": null,
+                "query": "Xand%C3%A3o",
+                "tweet_volume": 10713,
+                "url": "http://twitter.com/search?q=Xand%C3%A3o"
+            },
+            {
+                "name": "Balbuena",
+                "promoted_content": null,
+                "query": "Balbuena",
+                "tweet_volume": 23878,
+                "url": "http://twitter.com/search?q=Balbuena"
+            },
+            {
+                "name": "Kupp",
+                "promoted_content": null,
+                "query": "Kupp",
+                "tweet_volume": null,
+                "url": "http://twitter.com/search?q=Kupp"
+            },
+            {
+                "name": "Benito Ju\u00e1rez",
+                "promoted_content": null,
+                "query": "%22Benito+Ju%C3%A1rez%22",
+                "tweet_volume": 10579,
+                "url": "http://twitter.com/search?q=%22Benito+Ju%C3%A1rez%22"
+            },
+            {
+                "name": "Ja\u2019Marr",
+                "promoted_content": null,
+                "query": "Ja%E2%80%99Marr",
+                "tweet_volume": null,
+                "url": "http://twitter.com/search?q=Ja%E2%80%99Marr"
+            },
+            {
+                "name": "Alpay",
+                "promoted_content": null,
+                "query": "Alpay",
+                "tweet_volume": null,
+                "url": "http://twitter.com/search?q=Alpay"
+            },
+            {
+                "name": "Damion",
+                "promoted_content": null,
+                "query": "Damion",
+                "tweet_volume": null,
+                "url": "http://twitter.com/search?q=Damion"
+            },
+            {
+                "name": "Brian Kelly",
+                "promoted_content": null,
+                "query": "%22Brian+Kelly%22",
+                "tweet_volume": null,
+                "url": "http://twitter.com/search?q=%22Brian+Kelly%22"
+            },
+            {
+                "name": "Castillejo",
+                "promoted_content": null,
+                "query": "Castillejo",
+                "tweet_volume": null,
+                "url": "http://twitter.com/search?q=Castillejo"
+            },
+            {
+                "name": "Sushant A Divine Force",
+                "promoted_content": null,
+                "query": "%22Sushant+A+Divine+Force%22",
+                "tweet_volume": 39320,
+                "url": "http://twitter.com/search?q=%22Sushant+A+Divine+Force%22"
+            },
+            {
+                "name": "S\u0131rada EYT",
+                "promoted_content": null,
+                "query": "%22S%C4%B1rada+EYT%22",
+                "tweet_volume": null,
+                "url": "http://twitter.com/search?q=%22S%C4%B1rada+EYT%22"
+            },
+            {
+                "name": "Anemo",
+                "promoted_content": null,
+                "query": "Anemo",
+                "tweet_volume": 30595,
+                "url": "http://twitter.com/search?q=Anemo"
+            },
+            {
+                "name": "Portable",
+                "promoted_content": null,
+                "query": "Portable",
+                "tweet_volume": 68866,
+                "url": "http://twitter.com/search?q=Portable"
+            },
+            {
+                "name": "\u677e\u7530\u9078\u624b",
+                "promoted_content": null,
+                "query": "%E6%9D%BE%E7%94%B0%E9%81%B8%E6%89%8B",
+                "tweet_volume": null,
+                "url": "http://twitter.com/search?q=%E6%9D%BE%E7%94%B0%E9%81%B8%E6%89%8B"
+            },
+            {
+                "name": "Peter Dinklage",
+                "promoted_content": null,
+                "query": "%22Peter+Dinklage%22",
+                "tweet_volume": null,
+                "url": "http://twitter.com/search?q=%22Peter+Dinklage%22"
+            }
+        ]
+    }
+]

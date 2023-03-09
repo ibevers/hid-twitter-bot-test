@@ -1,0 +1,47 @@
+
+
+
+body {
+    background-color: blue;
+}
+
+h1 {
+    text-align: center;
+    background-color: white;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+* {
+    box-sizing: border-box;
+}
+
+.center, p {
+    display:center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #666666;
+}
+
+.grid-item {
+}
+.text {
+    align-items: left;
+}
+
+div.css-dm3ece.everg990.vega-embed.has-actions {
+    background-color: #000000;
+}
+
+
+
+
+
+

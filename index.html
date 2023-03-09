@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+    <!-- Meta info-->
+    <head>
+        <meta charset='UTF-8'>
+        <title> Twitter Bot Activity Website</title>
+        <meta name='viewport' content='width=device-width,
+        initial-scale=1'>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;1,200&display=swap" rel="stylesheet">
+        <!-- <link rel='stylesheet' href='style.css'> -->
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script type="text/javascript">
+    
+          // Load the Visualization API and the corechart package.
+          google.charts.load('current', {'packages':['corechart']});
+    
+          // Set a callback to run when the Google Visualization API is loaded.
+          google.charts.setOnLoadCallback(drawChart);
+    
+          // Callback that creates and populates a data table,
+          // instantiates the pie chart, passes in the data and
+          // draws it.
+          function drawChart() {
+    
+            // Create the data table.
+            var data = new google.visualization.DataTable();
+            data.addColumn('string', 'Topping');
+            data.addColumn('number', 'Slices');
+            data.addRows([
+              ['Mushrooms', 3],
+              ['Onions', 1],
+              ['Olives', 1],
+              ['Zucchini', 1],
+              ['Pepperoni', 2]
+            ]);
+    
+            // Set chart options
+            var options = {'title':'How Much Pizza I Ate Last Night',
+                           'width':400,
+                           'height':300};
+    
+            // Instantiate and draw our chart, passing in some options.
+            var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
+            chart.draw(data, options);
+          }
+        </script>
+        <style>
+            body  {
+                font-family: 'Montserrat';
+                font-size: 22px;
+                font-weight: 1;
+                color:#FFFFFF;
+                text-align: center;
+            }
+
+            *, html {
+                margin: 0;
+                padding: 0;
+            }
+
+            h1 {
+                position: -webkit-sticky; /* Safari */
+                position: sticky;
+                top: 0px;
+                display:block;
+                background-color: white;
+                width: 100%;
+                text-align: center;
+            }
+
+
+            img {
+                padding-top: 1%;
+            }
+
+            div {
+                margin: 0px;
+            }
+
+            .header {
+                text-align: center;
+            }
+
+
+            .iframe {
+                /* width:100%; */
+                width: 612px;
+                height: 379px;
+                align-content: center;
+            }
+
+            #avg-graph {
+                display: inline-block;
+                text-align: center;
+                width: 612px;
+                height: 379px;
+                padding: 0 0 0 0; 
+                margin: 40px 0 0 0;
+                border-radius: 5px;
+                box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+                overflow: hidden;
+            }
+
+
+            .rows {
+                display: inline-block;
+                align-content: center;
+                margin-top: 0px;
+                margin-bottom: 20px;
+                margin: auto;
+                max-width: fit-content;
+                /* background-color: blanchedalmond;*/
+            }
+
+            .col-elem {
+                display: inline-block;
+                vertical-align: top;
+                margin-top: 40px;
+                border-radius: 5px;
+                box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+                overflow: hidden;
+                width: 600px;
+                height: 380px;
+                /* margin: auto; */
+            }
+            .col-elem-text {
+                display: inline-block;
+                margin-top: 40px;
+            }
+
+            .right {
+                margin-left: 40px;
+                /* box-shadow: 0px 0px 10px 10px black; */
+            }
+
+            button {
+                padding: 15px 45px;
+                border: 2px solid #0b3b5e;
+                background-color: rgb(254, 200, 9);
+                border-radius: 10px;
+                text-align: center;
+                font-size: 16px ; 
+                color: #0b3b5e;
+            }
+
+            button:hover {
+                background-color:rgb(240, 190, 10);
+                transition: 0.3s;
+            }
+
+            .center-block {
+                align-content: center;
+                max-width: 1200px;
+            }
+            .text-chunk {
+                align-content: center;
+                width:1200px;
+            }
+
+            .full-width-text {
+                display: inline-block;
+                text-align: left;
+                margin: 0 20px 0 20px;
+                max-width: 1200px;
+            }
+
+
+            @media only screen and (max-width: 1000px) {
+                    /* For mobile phones: */
+                /* .right {
+                  width: 100%;
+                  margin-right: 40px;
+                } */
+                
+                * {
+                    display: block;
+                    margin: 0 0 0 0;
+                }
+                /* #col-elem2 #col-elem4 {
+                    margin-left: 40px;
+                } */
+                .full-width-text {
+                    display: inline-block;
+                    text-align: left;
+                    margin: 0 20px 0 20px;
+                    max-width: 550px;
+                }
+                /* For mobile phones: */
+                .right {
+                    margin: 0 0 0 0;
+                }
+                .iframe {
+                    box-shadow: 30px 30px 30px 30px red;
+                
+                }
+                .full-width-text {
+                    display: inline-block;
+                    text-align: left;
+                    margin: 0 20px 0 20px;
+                    max-width: 550px;
+                }
+            }
+
+        </style>
+    </head>
+
+    <!-- Content of the page -->
+    <body style="background:#2C2D2D; text-align: center;">
+        <div id="chart_div"></div>
+        <h1 style="padding: 1% 0 1% 0;">
+            <img src="logo.png" alt="The humanID logo" style="width: 10%; max-width: 180px;">
+        </h1>
+        
+        <div id="avg-graph">
+            <iframe width="617" height="381" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRTJUf4AzEDJEElE-dXJKv5FFM3akp7U0D7v5cyhKfTC-mi3MBnBtEFVCUVIO2-i_OGcwoYyvc9YcfI/pubchart?oid=754605822&amp;format=interactive"></iframe>
+            <!-- <iframe width="617" height="381" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRTJUf4AzEDJEElE-dXJKv5FFM3akp7U0D7v5cyhKfTC-mi3MBnBtEFVCUVIO2-i_OGcwoYyvc9YcfI/pubchart?oid=754605822&amp;format=image"></iframe> -->
+            <!-- <iframe width="617" height="381" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRTJUf4AzEDJEElE-dXJKv5FFM3akp7U0D7v5cyhKfTC-mi3MBnBtEFVCUVIO2-i_OGcwoYyvc9YcfI/pubchart?oid=754605822&amp;format=interactive"></iframe> -->
+            <!-- <iframe width="618px" height="380px" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTIWmcjWhGdEYMs12rF8DPYAoMKd99NDH65agtAa7rid8WLYM-Wb5WszaAJI9YsG61J8u2uqS9cGDTg/pubchart?oid=409394652&amp;format=interactive"></iframe> -->
+        </div>
+        <div>
+
+        </div>
+        <div class="rows" style="max-width:fit-content">
+            <div style="text-align: center;">
+                <div class="col-elem-text left" style="width:600px; height:380px; align-content: center;">
+                    <div style="line-height:1.45;font-size: 28px;height: 318px;">
+                        <p  style="max-width:520px; padding: 3px 40px 0 40px; text-align: left;  " class="text"> [Explanation] Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Lorem Ipsum has been the industry's</p>
+                    </div>
+                    <button type="button" onclick="window.location.href='https\://human-id.org/'">Learn More &rarr;</button>
+                </div>                    
+                <div class="col-elem right" style="margin-top: 40px;">
+                    <iframe width="617" height="381" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRTJUf4AzEDJEElE-dXJKv5FFM3akp7U0D7v5cyhKfTC-mi3MBnBtEFVCUVIO2-i_OGcwoYyvc9YcfI/pubchart?oid=1205267187&amp;format=interactive"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="rows">
+            <div class="col-elem left" id="col-elem2">
+                <iframe width="617" height="381" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRTJUf4AzEDJEElE-dXJKv5FFM3akp7U0D7v5cyhKfTC-mi3MBnBtEFVCUVIO2-i_OGcwoYyvc9YcfI/pubchart?oid=1227305432&amp;format=interactive"></iframe>
+            </div>
+            <div class="col-elem right" id="col-elem3">
+                <iframe width="617" height="381" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRTJUf4AzEDJEElE-dXJKv5FFM3akp7U0D7v5cyhKfTC-mi3MBnBtEFVCUVIO2-i_OGcwoYyvc9YcfI/pubchart?oid=2138353047&amp;format=interactive"></iframe>
+            </div>
+        </div>
+        <div class="rows">
+            <div class="col-elem left" id="col-elem4">
+                <iframe width="617" height="381" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRTJUf4AzEDJEElE-dXJKv5FFM3akp7U0D7v5cyhKfTC-mi3MBnBtEFVCUVIO2-i_OGcwoYyvc9YcfI/pubchart?oid=1031074611&amp;format=interactive"></iframe>
+            </div>
+            <div class="col-elem right" id="col-elem5">
+                <iframe width="617" height="381" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRTJUf4AzEDJEElE-dXJKv5FFM3akp7U0D7v5cyhKfTC-mi3MBnBtEFVCUVIO2-i_OGcwoYyvc9YcfI/pubchart?oid=1964496240&amp;format=interactive"></iframe>
+            </div>
+        </div>
+        <div id="text-chunk">
+            <div class="rows" style="margin-top: 80px;">
+                <div class="text" style="margin-bottom:15px;">
+                    <h2>Significance</h2>
+                </div>
+                <div class="full-width-text">
+                    <p> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                </div>
+            </div>
+
+            <div class="rows" style="margin-top: 40px;">
+                <div class="header" style="margin-bottom:15px;">
+                    <h2>Technical Details</h2>
+                </div>
+                <div class="full-width-text">
+                    <p> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

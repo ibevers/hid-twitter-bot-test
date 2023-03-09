@@ -1,0 +1,140 @@
+
+*, html {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0px;
+    display:block;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}
+
+
+img {
+    padding-top: 1%;
+}
+
+div {
+    margin: 0px;
+}
+
+.header {
+    text-align: center;
+}
+
+
+.iframe {
+    /* width:100%; */
+    width: 612px;
+    height: 379px;
+    align-content: center;
+}
+
+#avg-graph {
+    display: inline-block;
+    text-align: center;
+    width: 612px;
+    height: 379px;
+    padding: 0 0 0 0; 
+    margin: 40px 0 0 0;
+    border-radius: 5px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+body {
+    text-align: center;
+}
+
+.rows {
+    display: inline-block;
+    align-content: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin: auto;
+    max-width: fit-content;
+    /* background-color: blanchedalmond;*/
+}
+
+.col-elem {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 600px;
+    height: 380px;
+    /* margin: auto; */
+}
+.col-elem-text {
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.right {
+    margin-left: 40px;
+    /* box-shadow: 0px 0px 10px 10px black; */
+}
+
+button {
+    padding: 15px 45px;
+    border: 2px solid #0b3b5e;
+    background-color: rgb(254, 200, 9);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px ; 
+    color: #0b3b5e;
+}
+
+button:hover {
+    background-color:rgb(240, 190, 10);
+    transition: 0.3s;
+}
+
+.center-block {
+    align-content: center;
+    max-width: 1200px;
+}
+.text-chunk {
+    align-content: center;
+    width:1200px;
+}
+
+.full-width-text {
+    display: inline-block;
+    text-align: left;
+    margin: 0 20px 0 20px;
+    max-width: 1200px;
+}
+
+
+@media only screen and (max-width: 1100px) {
+    /* For mobile phones: */
+    /* .right {
+      width: 100%;
+      margin-right: 40px;
+    } */
+    .iframe {
+        box-shadow: 30px 30px 30px 30px red;
+
+    }
+    .col-elem {
+        display: flex;
+        margin: 0 0 0 0;
+    }
+    /* #col-elem2 #col-elem4 {
+        margin-left: 40px;
+    } */
+    .full-width-text {
+        display: inline-block;
+        text-align: left;
+        margin: 0 20px 0 20px;
+        max-width: 550px;
+    }
+}
