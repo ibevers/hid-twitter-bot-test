@@ -72,7 +72,8 @@ def main():
             print("sleeping for " + str(COLLECTION_PERIOD) + " minutes")
             time.sleep(timeout_period)
         except:
-            pass
+            print("Likely API issue: sleeping for " + str(MINS_IN_HR) + " minutes")
+            time.sleep(timeout_period)
 
 if __name__=='__main__':
     main()
