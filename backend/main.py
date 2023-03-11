@@ -68,12 +68,11 @@ def main():
             write_batch_to_sheets(database, trend_dict)
             print(str(count) + " database updates completed")
             count += 1
-            timeout_period = COLLECTION_PERIOD * SEC_IN_MIN
             print("sleeping for " + str(COLLECTION_PERIOD) + " minutes")
-            time.sleep(timeout_period)
+            time.sleep(COLLECTION_PERIOD * SEC_IN_MIN)
         except:
             print("Likely API issue: sleeping for " + str(MINS_IN_HR) + " minutes")
-            time.sleep(timeout_period)
+            time.sleep(MINS_IN_HR * SEC_IN_MIN)
 
 if __name__=='__main__':
     main()
